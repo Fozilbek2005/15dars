@@ -12,5 +12,3 @@ public class Main {
         System.out.println(food.getFat()+food.getCalories()+food.getFat());
     }
 }
-
-

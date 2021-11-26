@@ -1,31 +1,31 @@
 package com.company;
 
 public class Food {
-    private int Price;
-    private int Calories;
-    private double Fat;
+    private int price;
+    private int calories;
+    private double fat;
 
     public int getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(int price) {
-        Price = price;
+        this.price = price;
     }
 
     public int getCalories() {
-        return Calories;
+        return calories;
     }
 
     public void setCalories(int calories) {
-        Calories = calories;
+        this.calories = calories;
     }
 
     public double getFat() {
-        return Fat;
+        return fat;
     }
 
     public void setFat(double fat) {
-        Fat = fat;
+        this.fat = fat;
     }
 }
