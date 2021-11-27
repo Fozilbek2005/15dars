@@ -5,27 +5,24 @@ public class Food {
     private int calories;
     private double fat;
 
-    public int getPrice() {
-        return price;
+    public Food(int price, int calories, double fat) {
+        this.price = price;
+        this.calories = calories;
+        this.fat = fat;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public Food() {
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     public int getCalories() {
         return calories;
     }
 
-    public void setCalories(int calories) {
-        this.calories = calories;
-    }
-
     public double getFat() {
         return fat;
-    }
-
-    public void setFat(double fat) {
-        this.fat = fat;
     }
 }
